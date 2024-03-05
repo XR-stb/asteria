@@ -47,6 +47,8 @@ export CXX='g++-10'
 Then we can build as usual
 
 ```sh
+# version >= 1.1
+meson -v
 meson setup build_debug
 meson compile -Cbuild_debug
 ```
