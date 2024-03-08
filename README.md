@@ -30,11 +30,13 @@ sudo apt-get install ninja-build python3 python3-pip pkgconf g++  \
 sudo pip3 install meson
 ```
 ```sh
-# For MSYS2 on Windows:
+# For MSYS2 on Windows: 
 # The `iconv_open()` etc. functions are provided by libiconv. Only the MSYS
 # shell is supported. Do not try building in the MINGW64 or UCRT64 shell.
 pacman -S meson gcc pkgconf pcre2-devel openssl-devel zlib-devel  \
         libiconv-devel libedit-devel
+
+# Or you can see complete compilation Tutorial in https://github.com/XR-stb/asteria/blob/master/doc/mysy2_build_asteria.md
 ```
 ```sh
 # For macOS:
